@@ -1,0 +1,169 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/o1-visa-service#webpage",
+      "url": "https://www.example.com/o1-visa-service",
+      "name": "O-1 Visa Legal Service — Example Law Firm",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://www.example.com/#org" },
+      "about": { "@id": "https://www.example.com/o1-visa-service#legalService" },
+      "mainEntity": [
+        { "@id": "https://www.example.com/o1-visa-service#howto" },
+        { "@id": "https://www.example.com/o1-visa-service#faq" },
+        { "@id": "https://www.example.com/o1-visa-service#facts" }
+      ],
+      "datePublished": "2025-10-31",
+      "dateModified": "2025-10-31"
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.example.com/#org",
+      "name": "Example Law Firm",
+      "url": "https://www.example.com/",
+      "logo": "https://www.example.com/images/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/TODO_replace_with_real_company",
+        "https://x.com/TODO_replace_with_real_handle"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+1-000-000-0000",
+        "email": "contact@example.com",
+        "areaServed": "US",
+        "availableLanguage": ["en"]
+      }
+    },
+
+    {
+      "@type": "LegalService",
+      "@id": "https://www.example.com/o1-visa-service#legalService",
+      "name": "Example Law Firm",
+      "url": "https://www.example.com/o1-visa-service",
+      "description": "Specialized O-1 visa consultation and representation for professionals in business, arts, sciences, education, and athletics.",
+      "image": "https://www.example.com/images/office.jpg",
+      "telephone": "+1-000-000-0000",
+      "email": "contact@example.com",
+      "priceRange": "$$$",
+      "serviceType": "O-1 Visa Consultation",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "provider": { "@id": "https://www.example.com/#org" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Example Street",
+        "addressLocality": "Example City",
+        "addressRegion": "EX",
+        "postalCode": "00000",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "ratingCount": 137
+      }
+    },
+
+    {
+      "@type": "HowTo",
+      "@id": "https://www.example.com/o1-visa-service#howto",
+      "name": "How to Apply for an O-1 Visa",
+      "description": "A six-step process from eligibility screening to decision.",
+      "inLanguage": "en",
+      "totalTime": "P2M",
+      "image": "https://www.example.com/images/howto/o1-overview.jpg",
+      "url": "https://www.example.com/o1-visa-service#howto",
+      "supply": [
+        { "@type": "HowToSupply", "name": "Evidence portfolio" },
+        { "@type": "HowToSupply", "name": "Employer or qualified agent agreement" }
+      ],
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Eligibility Review", "text": "Analyze profile against O-1A/B criteria.", "url": "https://www.example.com/o1-visa-service#step-1", "image": "https://www.example.com/images/howto/step-1.jpg" },
+        { "@type": "HowToStep", "position": 2, "name": "Evidence Collection", "text": "Gather awards, media coverage, judging, memberships, critical roles, high salary, publications/patents.", "url": "https://www.example.com/o1-visa-service#step-2", "image": "https://www.example.com/images/howto/step-2.jpg" },
+        { "@type": "HowToStep", "position": 3, "name": "Employer/Agent Setup", "text": "Engage a U.S. petitioner or qualified agent; align duties and itinerary.", "url": "https://www.example.com/o1-visa-service#step-3", "image": "https://www.example.com/images/howto/step-3.jpg" },
+        { "@type": "HowToStep", "position": 4, "name": "Petition Preparation", "text": "Draft forms, support letters, itinerary, advisory opinion; assemble exhibits.", "url": "https://www.example.com/o1-visa-service#step-4", "image": "https://www.example.com/images/howto/step-4.jpg" },
+        { "@type": "HowToStep", "position": 5, "name": "Filing & Processing", "text": "Submit to USCIS; optionally use Premium Processing for expedited action.", "url": "https://www.example.com/o1-visa-service#step-5", "image": "https://www.example.com/images/howto/step-5.jpg" },
+        { "@type": "HowToStep", "position": 6, "name": "Decision & Follow-Up", "text": "Track decision; respond to RFEs if any; proceed to visa interview/stamping as applicable.", "url": "https://www.example.com/o1-visa-service#step-6", "image": "https://www.example.com/images/howto/step-6.jpg" }
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.example.com/o1-visa-service#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who can apply for an O-1 visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individuals with extraordinary ability in science, arts, education, business, or athletics, typically demonstrated by a major award or meeting at least 3 regulatory criteria.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "USCIS – O-1 Visa: Individuals with Extraordinary Ability or Achievement",
+              "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/o-1-visa-individuals-with-extraordinary-ability-or-achievement"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I self-petition for O-1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A U.S. employer or a qualified U.S. agent must file the petition on your behalf."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the O-1 process take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular processing commonly takes 2–4 months; Premium Processing is approximately 15 calendar days for a USCIS action."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is O-1 valid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Initial validity is up to 3 years for the specific event or activity, with 1-year extensions for continuing or similar activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change employers while on O-1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The new employer or agent must file a petition before you begin O-1 employment with them."
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "Review",
+      "@id": "https://www.example.com/o1-visa-service#review-1",
+      "reviewBody": "A technology startup CTO’s O-1A was approved in 11 days with Premium Processing. The case emphasized press coverage, patents, and critical leadership contributions.",
+      "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 },
+      "author": { "@type": "Person", "name": "Anonymous Client" },
+      "itemReviewed": { "@id": "https://www.example.com/o1-visa-service#legalService" },
+      "datePublished": "2025-08-12"
+    },
+
+    {
+      "@type": "ItemList",
+      "@id": "https://www.example.com/o1-visa-service#facts",
+      "name": "O-1 Quick Facts",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Initial validity: up to 3 years" },
+        { "@type": "ListItem", "position": 2, "name": "Extensions: 1-year increments for continuing activity" },
+        { "@type": "ListItem", "position": 3, "name": "Premium Processing: approximately 15 calendar days for USCIS action" },
+        { "@type": "ListItem", "position": 4, "name": "Petitioner: U.S. employer or qualified agent (self-petitioning not permitted)" },
+        { "@type": "ListItem", "position": 5, "name": "Categories: O-1A (science, business, education, athletics), O-1B (arts)" }
+      ]
+    }
+  ]
+}
+</script>
