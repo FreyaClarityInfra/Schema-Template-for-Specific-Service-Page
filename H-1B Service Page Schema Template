@@ -1,0 +1,1024 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LegalService",
+      "@id": "#LegalService",
+      "name": "Expert H-1B Visa Immigration Services",
+      "description": "Navigate the H-1B visa process with confidence. Our experienced immigration attorneys provide comprehensive support from petition filing to approval.",
+      "provider": {
+        "@type": "Organization",
+        "name": "[YOUR LAW FIRM NAME]",
+        "url": "[YOUR WEBSITE URL]",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "[YOUR LOGO URL]"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "[YOUR PHONE NUMBER]",
+          "email": "[YOUR EMAIL]",
+          "contactType": "Customer Service",
+          "areaServed": "US",
+          "availableLanguage": ["English"]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "[YOUR STREET ADDRESS]",
+          "addressLocality": "[YOUR CITY]",
+          "addressRegion": "[YOUR STATE]",
+          "postalCode": "[YOUR ZIP]",
+          "addressCountry": "US"
+        }
+      },
+      "serviceType": "Immigration Law - H-1B Specialty Occupation Visa",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "slogan": "Your Path to Working in the United States",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "[YOUR RATING]",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "[YOUR REVIEW COUNT]"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "#Service",
+      "name": "H-1B Visa Legal Services",
+      "serviceType": "Immigration Legal Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "[YOUR LAW FIRM NAME]"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Comprehensive H-1B Visa Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Petition Preparation",
+              "description": "Complete preparation and filing of Form I-129 with meticulous attention to detail and compliance."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Employer Support",
+              "description": "Comprehensive guidance for employers including Labor Condition Application (LCA) filing and compliance."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Documentation Review",
+              "description": "Thorough review of all supporting documents, educational credentials, and work experience letters."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dedicated Support",
+              "description": "Personal case manager assigned to your application from start to finish with regular updates."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "RFE Response",
+              "description": "Expert handling of Requests for Evidence with strategic responses to maximize approval chances."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Premium Processing",
+              "description": "Fast-track your application with premium processing service for 15-day USCIS review."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "#HowTo",
+      "name": "The H-1B Visa Application Process",
+      "description": "A clear, step-by-step journey from initial consultation to visa approval",
+      "totalTime": "P20W",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Initial Consultation",
+          "text": "We assess your eligibility, review your qualifications, and develop a customized strategy for your H-1B petition.",
+          "itemListElement": {
+            "@type": "HowToDirection",
+            "text": "Complete eligibility assessment and qualification review during Week 1"
+          }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Document Collection",
+          "text": "Gather all necessary documents including educational credentials, employment letters, and job descriptions.",
+          "itemListElement": {
+            "@type": "HowToDirection",
+            "text": "Collect and review all supporting documentation during Week 2-3"
+          }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "LCA Filing",
+          "text": "File Labor Condition Application with the Department of Labor and obtain certification.",
+          "itemListElement": {
+            "@type": "HowToDirection",
+            "text": "Submit LCA to Department of Labor and receive certification during Week 3-4"
+          }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Petition Filing",
+          "text": "Prepare and file Form I-129 with USCIS along with all supporting documentation and filing fees.",
+          "itemListElement": {
+            "@type": "HowToDirection",
+            "text": "File Form I-129 petition with USCIS during Week 5"
+          }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Case Monitoring",
+          "text": "Track your petition status, respond to any requests for evidence, and keep you informed throughout.",
+          "itemListElement": {
+            "@type": "HowToDirection",
+            "text": "Monitor petition status and respond to RFEs during Week 6-20"
+          }
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Approval & Visa",
+          "text": "Upon approval, assist with visa stamping at US consulate and prepare for your arrival in the United States.",
+          "itemListElement": {
+            "@type": "HowToDirection",
+            "text": "Complete visa stamping and prepare for U.S. arrival at Week 20+"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "#FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an H-1B visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The H-1B visa is a non-immigrant visa that allows U.S. employers to temporarily employ foreign workers in specialty occupations. These occupations typically require theoretical or technical expertise in specialized fields such as IT, engineering, mathematics, science, or medicine.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "INA §101(a)(15)(H)(i)(b), 8 CFR §214.2(h)"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the eligibility requirements for H-1B?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To qualify for an H-1B visa, you must have a U.S. bachelor's degree or higher (or its foreign equivalent) in a specific specialty, and the position must require such a degree. You also need a job offer from a U.S. employer willing to sponsor your H-1B petition.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "8 CFR §214.2(h)(4)(iii)(A)"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does the H-1B process take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard processing typically takes 3-6 months. With premium processing (additional $2,805 fee as of October 2024), USCIS will process your petition within 15 calendar days. The overall timeline also depends on the annual H-1B cap lottery if applicable.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "8 CFR §103.7(e), USCIS Processing Times"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the H-1B cap and lottery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The H-1B cap is an annual limit of 65,000 visas, with an additional 20,000 for those holding U.S. master's degrees or higher from U.S. institutions. When applications exceed the cap, USCIS conducts a random lottery. Cap-exempt employers include universities and non-profit research institutions.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "INA §214(g)(1)(A), 8 CFR §214.2(h)(8)(ii)(F)"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long can I stay on an H-1B visa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The H-1B visa is initially granted for up to 3 years and can be extended for another 3 years, making the maximum stay 6 years. Extensions beyond 6 years are possible in certain circumstances, such as when a green card application (I-140) has been pending for 365 days or more.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "INA §214(g)(4), AC21 §106"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can my family accompany me on H-1B?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, your spouse and unmarried children under 21 can accompany you on H-4 dependent visas. H-4 visa holders can study in the U.S., and certain H-4 spouses may be eligible to apply for work authorization (Employment Authorization Document) under specific conditions.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "INA §101(a)(15)(H)(iv), 8 CFR §214.2(h)(9)"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if my H-1B is denied?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your petition is denied, you can file a motion to reconsider or reopen with USCIS, file an appeal to the Administrative Appeals Office (AAO), or submit a new petition addressing the reasons for denial. You must act within the specified timeframes for appeals and motions.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "8 CFR §103.3, 8 CFR §103.5"
+            }
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change employers on H-1B?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can change employers, but the new employer must file a new H-1B petition (Form I-129) on your behalf. Under the AC21 portability provision, you can start working for the new employer once the new petition is properly filed, without waiting for approval.",
+            "citation": {
+              "@type": "Legislation",
+              "legislationIdentifier": "AC21 §105, 8 CFR §214.2(h)(2)(i)(H)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "#Dataset",
+      "name": "H-1B Visa Statistics & Data",
+      "description": "Official statistics and factual data about the H-1B visa program from government sources",
+      "creator": {
+        "@type": "Organization",
+        "name": "U.S. Citizenship and Immigration Services",
+        "url": "https://www.uscis.gov"
+      },
+      "temporalCoverage": "2023/2024",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "United States"
+      },
+      "variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "name": "H-1B Petitions Approved (FY 2023)",
+          "value": "386000",
+          "unitText": "petitions",
+          "description": "Total H-1B petitions approved in fiscal year 2023, representing an 8% increase from the previous year",
+          "citation": "USCIS FY 2023 Report"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Top Countries Percentage",
+          "value": "74",
+          "unitText": "percent",
+          "description": "Percentage of H-1B beneficiaries from India and China combined",
+          "citation": "USCIS Statistical Report"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Median H-1B Salary",
+          "value": "103500",
+          "unitText": "USD",
+          "description": "Median salary for H-1B workers across all occupations in 2024",
+          "citation": "U.S. Department of Labor (2024)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Premium Processing Time",
+          "value": "15",
+          "unitText": "days",
+          "description": "Guaranteed review period for premium processing service",
+          "citation": "USCIS Processing Times"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Regular Cap Visas",
+          "value": "65000",
+          "unitText": "visas",
+          "description": "Annual cap for regular H-1B visas",
+          "citation": "Immigration Act §214(g)(1)(A)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Master's Cap Visas",
+          "value": "20000",
+          "unitText": "visas",
+          "description": "Additional cap for U.S. master's degree holders",
+          "citation": "Immigration Act §214(g)(1)(A)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Initial Registrations (FY 2024)",
+          "value": "408891",
+          "unitText": "registrations",
+          "description": "Total electronic registrations submitted for FY 2024, requiring lottery selection",
+          "citation": "USCIS H-1B Cap Report"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Selection Rate (FY 2024)",
+          "value": "20.8",
+          "unitText": "percent",
+          "description": "Approximate selection rate in the H-1B lottery based on 85,000 cap and 408,891 registrations",
+          "citation": "USCIS H-1B Electronic Registration Selection Process"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Computer-Related Occupations",
+          "value": "67.7",
+          "unitText": "percent",
+          "description": "Percentage of H-1B visas issued to computer-related occupations",
+          "citation": "USCIS Characteristics of H-1B Specialty Occupation Workers"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Engineering Occupations",
+          "value": "12.4",
+          "unitText": "percent",
+          "description": "Percentage of H-1B visas issued to engineering occupations",
+          "citation": "USCIS Characteristics of H-1B Specialty Occupation Workers"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Business & Finance Occupations",
+          "value": "8.9",
+          "unitText": "percent",
+          "description": "Percentage of H-1B visas issued to business and finance occupations",
+          "citation": "USCIS Characteristics of H-1B Specialty Occupation Workers"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Healthcare Occupations",
+          "value": "5.3",
+          "unitText": "percent",
+          "description": "Percentage of H-1B visas issued to healthcare occupations",
+          "citation": "USCIS Characteristics of H-1B Specialty Occupation Workers"
+        }
+      ]
+    },
+    {
+      "@type": "Table",
+      "@id": "#Table",
+      "about": "Comparison of U.S. Work Visa Categories: H-1B vs L-1 vs O-1 vs TN",
+      "name": "H-1B vs. Other Work Visas Comparison Table",
+      "description": "Compare the H-1B visa with other common U.S. work visa categories including L-1 (Intracompany Transfer), O-1 (Extraordinary Ability), and TN (NAFTA/USMCA) to determine the best option for your situation",
+      "numberOfColumns": 5,
+      "numberOfRows": 8,
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "U.S. Citizenship and Immigration Services",
+        "url": "https://www.uscis.gov"
+      }
+    },
+    {
+      "@type": "Article",
+      "@id": "#Article",
+      "headline": "H-1B Visa Eligibility Requirements",
+      "description": "Detailed eligibility criteria based on federal regulations and USCIS policy guidance including educational requirements, specialty occupation criteria, beneficiary and employer requirements, and cap-exempt employers",
+      "datePublished": "2025-11-02",
+      "dateModified": "2025-11-02",
+      "articleSection": "Immigration Law",
+      "citation": [
+        {
+          "@type": "Legislation",
+          "name": "Immigration and Nationality Act Section 101(a)(15)(H)(i)(b)",
+          "legislationIdentifier": "INA §101(a)(15)(H)(i)(b)",
+          "legislationJurisdiction": "United States",
+          "description": "Definition of H-1B temporary workers"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Code of Federal Regulations Title 8 Section 214.2(h)",
+          "legislationIdentifier": "8 CFR §214.2(h)",
+          "legislationJurisdiction": "United States",
+          "description": "Temporary workers in specialty occupations"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Educational Requirements",
+          "legislationIdentifier": "8 CFR §214.2(h)(4)(iii)(A)",
+          "legislationJurisdiction": "United States",
+          "description": "Criteria for specialty occupation"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Foreign Degree Equivalency",
+          "legislationIdentifier": "8 CFR §214.2(h)(4)(iii)(D)(1)",
+          "legislationJurisdiction": "United States",
+          "description": "Recognition of foreign equivalent of U.S. degree"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Work Experience Equivalency",
+          "legislationIdentifier": "8 CFR §214.2(h)(4)(iii)(D)(5)",
+          "legislationJurisdiction": "United States",
+          "description": "Recognition of experience in specialty occupation"
+        },
+        {
+          "@type": "Legislation",
+          "name": "State Licensure Requirements",
+          "legislationIdentifier": "8 CFR §214.2(h)(4)(iii)(C)",
+          "legislationJurisdiction": "United States",
+          "description": "License to practice in the occupation"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Beneficiary Qualifications",
+          "legislationIdentifier": "8 CFR §214.2(h)(4)(iii)",
+          "legislationJurisdiction": "United States",
+          "description": "Requirements for H-1B beneficiaries"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Employer Job Offer",
+          "legislationIdentifier": "8 CFR §214.2(h)(4)(iv)",
+          "legislationJurisdiction": "United States",
+          "description": "Position requirements for specialty occupation"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Cap Exemptions",
+          "legislationIdentifier": "8 CFR §214.2(h)(8)(ii)(F)",
+          "legislationJurisdiction": "United States",
+          "description": "Employers and organizations exempt from H-1B cap"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Cap-Exempt Affiliated Nonprofits",
+          "legislationIdentifier": "8 CFR §214.2(h)(8)(ii)(F)(2)",
+          "legislationJurisdiction": "United States",
+          "description": "Nonprofit organizations related to higher education"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Cap-Exempt Nonprofit Research",
+          "legislationIdentifier": "8 CFR §214.2(h)(8)(ii)(F)(3)",
+          "legislationJurisdiction": "United States",
+          "description": "Nonprofit research organizations"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Cap-Exempt Government Research",
+          "legislationIdentifier": "8 CFR §214.2(h)(19)(iii)(B)",
+          "legislationJurisdiction": "United States",
+          "description": "Governmental research organizations"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Labor Condition Application",
+          "legislationIdentifier": "20 CFR §655.700",
+          "legislationJurisdiction": "United States",
+          "description": "LCA requirements and procedures"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Prevailing Wage Requirements",
+          "legislationIdentifier": "INA §212(n)(1)(A)",
+          "legislationJurisdiction": "United States",
+          "description": "Wage attestation requirements"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Higher Education Definition",
+          "legislationIdentifier": "20 U.S.C. §1001(a)",
+          "legislationJurisdiction": "United States",
+          "description": "Definition of institution of higher education"
+        },
+        {
+          "@type": "LegalCase",
+          "name": "Matter of Towa",
+          "citation": "25 I&N Dec. 177",
+          "description": "Associate's degree does not meet minimum requirement"
+        },
+        {
+          "@type": "LegalCase",
+          "name": "Matter of Dhanasar",
+          "citation": "26 I&N Dec. 884",
+          "description": "Beneficiary qualification standards"
+        },
+        {
+          "@type": "LegalCase",
+          "name": "Matter of Defensor",
+          "citation": "25 I&N Dec. 850",
+          "description": "Employer-employee relationship requirements"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "#Review",
+      "itemReviewed": {
+        "@type": "LegalService",
+        "name": "H-1B Visa Immigration Services"
+      },
+      "reviewRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "[YOUR RATING]",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "[YOUR REVIEW COUNT]"
+      }
+    },
+    {
+      "@type": "PriceSpecification",
+      "@id": "#PriceSpecification",
+      "name": "H-1B Visa Cost Breakdown",
+      "description": "Official government fees and costs associated with H-1B visa petitions (Updated November 2024)",
+      "priceCurrency": "USD",
+      "priceComponent": [
+        {
+          "@type": "UnitPriceSpecification",
+          "name": "Base Filing Fee (Form I-129)",
+          "price": "460",
+          "priceCurrency": "USD",
+          "referenceQuantity": {
+            "@type": "QuantitativeValue",
+            "value": "1",
+            "unitCode": "EA"
+          },
+          "description": "Required base filing fee for H-1B petition, paid by employer",
+          "citation": {
+            "@type": "Legislation",
+            "legislationIdentifier": "8 CFR §103.7(b)(1)",
+            "name": "USCIS Fee Schedule"
+          }
+        },
+        {
+          "@type": "UnitPriceSpecification",
+          "name": "ACWIA Fee - Small Employer (1-25 employees)",
+          "price": "750",
+          "priceCurrency": "USD",
+          "description": "American Competitiveness and Workforce Improvement Act fee for employers with 1-25 full-time employees, paid by employer",
+          "citation": {
+            "@type": "Legislation",
+            "legislationIdentifier": "Pub. L. 105-277, §414",
+            "name": "American Competitiveness and Workforce Improvement Act"
+          }
+        },
+        {
+          "@type": "UnitPriceSpecification",
+          "name": "ACWIA Fee - Large Employer (26+ employees)",
+          "price": "1500",
+          "priceCurrency": "USD",
+          "description": "American Competitiveness and Workforce Improvement Act fee for employers with more than 25 full-time employees, paid by employer",
+          "citation": {
+            "@type": "Legislation",
+            "legislationIdentifier": "Pub. L. 105-277, §414",
+            "name": "American Competitiveness and Workforce Improvement Act"
+          }
+        },
+        {
+          "@type": "UnitPriceSpecification",
+          "name": "Fraud Prevention and Detection Fee",
+          "price": "500",
+          "priceCurrency": "USD",
+          "description": "Required fraud prevention and detection fee, paid by employer",
+          "citation": {
+            "@type": "Legislation",
+            "legislationIdentifier": "8 CFR §214.2(h)(13)",
+            "name": "Fraud Prevention and Detection Fee"
+          }
+        },
+        {
+          "@type": "UnitPriceSpecification",
+          "name": "Premium Processing Service",
+          "price": "2805",
+          "priceCurrency": "USD",
+          "description": "Optional expedited processing guaranteeing 15 calendar day review period (effective October 1, 2024), paid by employer",
+          "citation": {
+            "@type": "Legislation",
+            "legislationIdentifier": "8 CFR §103.7(e)",
+            "name": "Premium Processing Service"
+          }
+        },
+        {
+          "@type": "UnitPriceSpecification",
+          "name": "Public Law 114-113 Fee",
+          "price": "4000",
+          "priceCurrency": "USD",
+          "description": "Fee for employers with 50+ employees where more than 50% hold H-1B/L-1 status, paid by employer",
+          "citation": {
+            "@type": "Legislation",
+            "legislationIdentifier": "Pub. L. 114-113 §301",
+            "name": "Public Law 114-113"
+          }
+        },
+        {
+          "@type": "UnitPriceSpecification",
+          "name": "Visa Application Fee (DS-160)",
+          "price": "205",
+          "priceCurrency": "USD",
+          "description": "Consular visa application fee, paid by beneficiary",
+          "citation": {
+            "@type": "Legislation",
+            "legislationIdentifier": "22 CFR §41.1",
+            "name": "Department of State Visa Fees"
+          }
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Minimum Cost (Small Employer)",
+          "value": "1710",
+          "description": "Required government fees for employers with ≤25 employees (Base $460 + ACWIA $750 + Fraud Prevention $500)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Standard Cost (Large Employer)",
+          "value": "2460",
+          "description": "Required fees for employers with >25 employees (Base $460 + ACWIA $1,500 + Fraud Prevention $500)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Cost with Premium Processing",
+          "value": "5265",
+          "description": "Standard cost + Premium Processing for 15-day guaranteed review period ($2,460 + $2,805)"
+        }
+      ],
+      "citation": [
+        {
+          "@type": "Legislation",
+          "name": "Fee Payment Responsibility",
+          "legislationIdentifier": "8 CFR §214.2(h)(2)(i)(D)",
+          "legislationJurisdiction": "United States",
+          "description": "Employers are legally prohibited from requiring beneficiaries to pay most H-1B petition fees"
+        },
+        {
+          "@type": "Legislation",
+          "name": "Wage Attestation",
+          "legislationIdentifier": "INA §212(n)(2)(C)(viii)",
+          "legislationJurisdiction": "United States",
+          "description": "Employer wage payment requirements"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "USCIS Policy Manual, Volume 1, Part A",
+          "url": "https://www.uscis.gov/policy-manual/volume-1-part-a",
+          "description": "Premium processing service guidelines"
+        }
+      ]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "#Citation",
+      "name": "Official References & Legal Citations for H-1B Visa Requirements",
+      "description": "All information is sourced from official government publications and federal regulations",
+      "citation": [
+        {
+          "@type": "Legislation",
+          "name": "Immigration and Nationality Act (INA)",
+          "legislationIdentifier": "INA",
+          "legislationJurisdiction": "United States",
+          "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title8&edition=prelim",
+          "description": "Federal law governing U.S. immigration, including H-1B visa provisions",
+          "legislationPassedBy": "U.S. Congress",
+          "legislationDate": "1952-06-27",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "H-1B Visa Definition",
+              "identifier": "§101(a)(15)(H)(i)(b)",
+              "description": "Defines H-1B temporary workers in specialty occupations"
+            },
+            {
+              "@type": "Thing",
+              "name": "Labor Condition Applications",
+              "identifier": "§212(n)",
+              "description": "Requirements for labor condition applications"
+            },
+            {
+              "@type": "Thing",
+              "name": "Numerical Limitations and Period of Admission",
+              "identifier": "§214(g)",
+              "description": "Annual cap of 65,000 visas and duration of stay"
+            }
+          ]
+        },
+        {
+          "@type": "Legislation",
+          "name": "Code of Federal Regulations Title 8 - Aliens and Nationality",
+          "legislationIdentifier": "8 CFR",
+          "legislationJurisdiction": "United States",
+          "url": "https://www.ecfr.gov/current/title-8",
+          "description": "Administrative regulations implementing immigration law",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Temporary Workers",
+              "identifier": "8 CFR §214.2(h)",
+              "description": "Regulations for H-1B specialty occupation workers"
+            },
+            {
+              "@type": "Thing",
+              "name": "Fee Regulations",
+              "identifier": "8 CFR §103.7",
+              "description": "USCIS filing fees and premium processing"
+            },
+            {
+              "@type": "Thing",
+              "name": "Appeals and Motions",
+              "identifier": "8 CFR §103.3",
+              "description": "Administrative appeals procedures"
+            },
+            {
+              "@type": "Thing",
+              "name": "Motions to Reopen or Reconsider",
+              "identifier": "8 CFR §103.5",
+              "description": "Procedures for filing motions"
+            }
+          ]
+        },
+        {
+          "@type": "Legislation",
+          "name": "Code of Federal Regulations Title 20 - Labor",
+          "legislationIdentifier": "20 CFR §655",
+          "legislationJurisdiction": "United States",
+          "url": "https://www.ecfr.gov/current/title-20/chapter-V/part-655",
+          "description": "Department of Labor regulations for temporary employment",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Labor Condition Applications",
+              "identifier": "20 CFR §655.700",
+              "description": "LCA filing requirements and procedures"
+            },
+            {
+              "@type": "Thing",
+              "name": "Prevailing Wage Determination",
+              "identifier": "20 CFR §655.731",
+              "description": "Wage requirements for H-1B positions"
+            }
+          ]
+        },
+        {
+          "@type": "Legislation",
+          "name": "Code of Federal Regulations Title 22 - Foreign Relations",
+          "legislationIdentifier": "22 CFR §41.1",
+          "legislationJurisdiction": "United States",
+          "description": "Department of State visa fees"
+        },
+        {
+          "@type": "Legislation",
+          "name": "American Competitiveness in the Twenty-First Century Act",
+          "legislationIdentifier": "AC21",
+          "legislationJurisdiction": "United States",
+          "legislationDate": "2000-10-17",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "H-1B Portability",
+              "identifier": "AC21 §105",
+              "description": "Allows H-1B workers to change employers"
+            },
+            {
+              "@type": "Thing",
+              "name": "Extensions Beyond Six Years",
+              "identifier": "AC21 §106",
+              "description": "Extensions for pending green card applications"
+            }
+          ]
+        },
+        {
+          "@type": "Legislation",
+          "name": "American Competitiveness and Workforce Improvement Act",
+          "legislationIdentifier": "Pub. L. 105-277",
+          "legislationJurisdiction": "United States",
+          "legislationDate": "1998-10-21",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "ACWIA Fee",
+              "identifier": "§414",
+              "description": "Training fee for H-1B petitions"
+            }
+          ]
+        },
+        {
+          "@type": "Legislation",
+          "name": "Consolidated Appropriations Act, 2016",
+          "legislationIdentifier": "Pub. L. 114-113",
+          "legislationJurisdiction": "United States",
+          "legislationDate": "2015-12-18",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Additional H-1B/L-1 Fee",
+              "identifier": "§301",
+              "description": "Fee for certain employers with high percentages of H-1B/L-1 workers"
+            }
+          ]
+        },
+        {
+          "@type": "Legislation",
+          "name": "Higher Education Act",
+          "legislationIdentifier": "20 U.S.C. §1001(a)",
+          "legislationJurisdiction": "United States",
+          "description": "Definition of institution of higher education for cap exemptions"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "USCIS Policy Manual",
+          "url": "https://www.uscis.gov/policy-manual",
+          "publisher": {
+            "@type": "GovernmentOrganization",
+            "name": "U.S. Citizenship and Immigration Services"
+          },
+          "description": "Official guidance on adjudication of immigration benefits",
+          "about": [
+            {
+              "@type": "Thing",
+              "name": "Temporary Workers",
+              "identifier": "Volume 2, Part H",
+              "description": "H-1B specialty occupation guidance"
+            },
+            {
+              "@type": "Thing",
+              "name": "Premium Processing",
+              "identifier": "Volume 1, Part A",
+              "description": "Premium processing service procedures"
+            }
+          ]
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "U.S. Citizenship and Immigration Services (USCIS)",
+          "url": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations",
+          "publisher": {
+            "@type": "GovernmentOrganization",
+            "name": "U.S. Citizenship and Immigration Services",
+            "url": "https://www.uscis.gov"
+          },
+          "description": "Primary agency for processing H-1B petitions"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "U.S. Department of Labor - Foreign Labor Certification",
+          "url": "https://www.dol.gov/agencies/eta/foreign-labor/programs/h1b",
+          "publisher": {
+            "@type": "GovernmentOrganization",
+            "name": "U.S. Department of Labor",
+            "url": "https://www.dol.gov"
+          },
+          "description": "Labor Condition Application (LCA) certification authority"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "U.S. Department of State - Temporary Worker Visas",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+          "publisher": {
+            "@type": "GovernmentOrganization",
+            "name": "U.S. Department of State",
+            "url": "https://travel.state.gov"
+          },
+          "description": "Visa issuance and consular processing"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Federal Register",
+          "url": "https://www.federalregister.gov",
+          "publisher": {
+            "@type": "GovernmentOrganization",
+            "name": "National Archives and Records Administration"
+          },
+          "description": "Official journal of federal regulations and notices"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "USCIS H-1B Data and Statistics",
+          "url": "https://www.uscis.gov/tools/reports-and-studies/immigration-and-citizenship-data",
+          "publisher": {
+            "@type": "GovernmentOrganization",
+            "name": "U.S. Citizenship and Immigration Services"
+          },
+          "description": "Official H-1B statistics including FY 2023 Report, H-1B Cap Report, Electronic Registration Selection Process, and Characteristics of H-1B Specialty Occupation Workers"
+        },
+        {
+          "@type": "LegalCase",
+          "name": "Matter of Towa",
+          "citation": "25 I&N Dec. 177 (AAO 2010)",
+          "description": "Precedent decision establishing that associate's degree does not meet minimum educational requirement for specialty occupation"
+        },
+        {
+          "@type": "LegalCase",
+          "name": "Matter of Dhanasar",
+          "citation": "26 I&N Dec. 884 (AAO 2016)",
+          "description": "Precedent decision on beneficiary qualification standards"
+        },
+        {
+          "@type": "LegalCase",
+          "name": "Matter of Defensor",
+          "citation": "25 I&N Dec. 850 (AAO 2012)",
+          "description": "Precedent decision on employer-employee relationship requirements"
+        }
+      ]
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "#ContactPage",
+      "name": "Contact H-1B Visa Services",
+      "description": "Ready to Start Your H-1B Journey? Schedule a consultation with our experienced immigration attorneys today.",
+      "mainEntity": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "telephone": "[YOUR PHONE NUMBER]",
+        "email": "[YOUR EMAIL]",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[YOUR STREET ADDRESS]",
+        "addressLocality": "[YOUR CITY]",
+        "addressRegion": "[YOUR STATE]",
+        "postalCode": "[YOUR ZIP]",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "name": "Expert H-1B Visa Services - Your Path to Working in the United States",
+      "description": "Navigate the H-1B visa process with confidence. Comprehensive immigration services including petition preparation, LCA filing, RFE response, and visa stamping support.",
+      "url": "[YOUR WEBSITE URL]",
+      "inLanguage": "en-US",
+      "about": {
+        "@type": "Thing",
+        "name": "H-1B Specialty Occupation Visa",
+        "sameAs": [
+          "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations",
+          "https://en.wikipedia.org/wiki/H-1B_visa"
+        ]
+      },
+      "datePublished": "2025-11-02",
+      "dateModified": "2025-11-02"
+    },
+    {
+      "@type": "Organization",
+      "name": "[YOUR LAW FIRM NAME]",
+      "url": "[YOUR WEBSITE URL]",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "[YOUR LOGO URL]"
+      },
+      "description": "Expert immigration law services specializing in H-1B visa petitions",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "[YOUR STREET ADDRESS]",
+        "addressLocality": "[YOUR CITY]",
+        "addressRegion": "[YOUR STATE]",
+        "postalCode": "[YOUR ZIP]",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "[YOUR PHONE NUMBER]",
+        "email": "[YOUR EMAIL]",
+        "contactType": "Customer Service",
+        "areaServed": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "[YOUR RATING]",
+        "reviewCount": "[YOUR REVIEW COUNT]"
+      }
+    }
+  ]
+}
